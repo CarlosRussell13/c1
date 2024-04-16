@@ -1,0 +1,65 @@
+body {
+    font-family: 'Cascadia Code', monospace;
+    background: #0c0d0c;
+    padding: 0 40px;
+    color: whitesmoke;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+}
+
+.navstyle {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.navstyle:hover {
+    color: rgb(255, 2, 2);
+}
+
+header {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.image-container {
+    margin-top: 30px;
+    background-color: #0c0d0c;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.other-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ margin-left: 200px;
+ margin-right: 200px;
+ font-size: 1.6em;
+ color: rgb(255, 255, 255);
+}
